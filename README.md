@@ -1,4 +1,4 @@
-# BH-SPDNet, BH-SPDNetBN \& BH-U-SPDNet for Market Regime Detection Using JSE Top 60 and Synthetic Block Hierarchical Correlation Matrices 
+# SPDNet, SPDNetBN \& U-SPDNet for Market Regime Detection Using JSE Top 60 and Synthetic Block Hierarchical Correlation Matrices 
 We perform market regime detection by testing three deep representation learning models tailored to the SPD Riemannian manifold of correlation matrices constructed from Bloomberg JSE Top 60 traded stock price returns data and synthetically-generated block hierarchical correlation matrices.
 
 The synthetic nested price return process is an adaptation/parameterised version of the general Hierarchically Nested Factor Model (HNFM)  from Multivariate Data (Tumminello et al., 2007) https://doi.org/10.1209/0295-5075/78/30006 and expanded on in Agglomerative Likelihood Clustering by Yelibi and Gebbie (2021) (https://doi.org/10.1088/1742-5468/ac3661 with code repo: https://github.com/lyelibi/timeseries_generator).
